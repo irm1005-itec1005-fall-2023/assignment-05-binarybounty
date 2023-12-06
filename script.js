@@ -47,7 +47,7 @@ function calculateDaysLeft(countdownDate) {
 function inititialise() {
   // If anything is wrong with the app container then end
   if (!appContainer) {
-    console.error("Error: Could not find app contianer");
+    console.error("Error: Could not find app container");
     return;
   }
 
