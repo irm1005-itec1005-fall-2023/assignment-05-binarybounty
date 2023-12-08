@@ -59,7 +59,7 @@ html {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,13 +165,10 @@ footer {
   background-color: #333;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
+.containerSlider {
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid red;
   display: flex;
   max-width: 1200px;
   width: 95%;
@@ -215,7 +212,7 @@ footer {
 
 .slider-wrapper .image-list {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 500px);
   gap: 18px;
   font-size: 0;
   list-style: none;
