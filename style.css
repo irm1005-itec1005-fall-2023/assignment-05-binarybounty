@@ -216,7 +216,7 @@ footer {
   right: -25px;
 }
 
-.slider-wrapper .image-list {
+.slideshow .image-list {
   display: grid;
   grid-template-columns: repeat(10, 500px);
   gap: 18px;
@@ -227,11 +227,11 @@ footer {
   scrollbar-width: none;
 }
 
-.slider-wrapper .image-list::-webkit-scrollbar {
+.slideshow .image-list::-webkit-scrollbar {
   display: none;
 }
 
-.slider-wrapper .image-list .image-item {
+.slideshow .image-list .image-item {
   width: 325px;
   height: 400px;
   object-fit: cover;
