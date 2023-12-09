@@ -135,9 +135,15 @@ main {
   display: block;
 } 
 
-.banner {
+.slideshow {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
 }
 
 .food {
